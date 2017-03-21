@@ -4,7 +4,7 @@ buildscript {
 	}
 	repositories {
 		mavenLocal()
-        maven { url "http://172.16.75.128:8081/nexus/content/groups/public/" }
+		maven { url "http://repo.koeiol.com/" }
 		mavenCentral()
 	}
 	dependencies {
@@ -21,7 +21,7 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenLocal()
-    maven { url "http://172.16.75.128:8081/nexus/content/groups/public/" }
+	maven { url "http://repo.koeiol.com/" }
 	mavenCentral()
 }
 
